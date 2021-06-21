@@ -75,7 +75,9 @@
             직원관리
           </MenuItem>
           <MenuItem index="4-2">
-            직원등록
+            <router-link class="link_style" to="/employment/form/add">
+              직원등록
+            </router-link>
           </MenuItem>
           <MenuItem index="4-3">
             급여관리

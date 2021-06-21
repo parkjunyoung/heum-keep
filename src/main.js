@@ -6,13 +6,15 @@ import Router from "vue-router";
 import App from "./App";
 import Home from "./pages/Home";
 import Subpage from './pages/Subpage';
+import Form from './components/Form';
 import 'element-theme-default';
 
 Vue.use(Router);
 
 const routes = [
   { path: "/",  component: Home },
-  { path: "/sub/:menu_name", component: Subpage }
+  { path: "/sub/:menu_name", component: Subpage },
+  { path :  '/employment/form/add' , component: Form }
 ];
 
 const router = new Router({
