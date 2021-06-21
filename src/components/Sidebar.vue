@@ -75,7 +75,7 @@
             직원관리
           </MenuItem>
           <MenuItem index="4-2">
-            <router-link class="link_style" to="/employment/form/add">
+            <router-link class="link_style" to="/employment/form/add?company=혜움">
               직원등록
             </router-link>
           </MenuItem>
